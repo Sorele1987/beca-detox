@@ -1,4 +1,5 @@
-// import React from "react";
+import React from "react";
+import Navbar from "./Navbar";
 
 const Keto = () => {
   return (
@@ -7,8 +8,8 @@ const Keto = () => {
         <h4>90 DAYS MONEY BACK GUARANTEE</h4>
       </div>
 
-      <div className="navbar">
-        <h4>90 DAYS MONEY BACK GUARANTEE</h4>
+      <div>
+        <Navbar />
       </div>
     </div>
   );

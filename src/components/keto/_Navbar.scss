@@ -1,0 +1,30 @@
+$color: #142348;
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  align-items: center;
+  padding: 0 4rem;
+}
+
+.review {
+  font-size: 12px;
+  margin-left: -100px;
+  color: $color;
+}
+
+.list {
+  display: flex;
+  font-size: 12px;
+  list-style: none;
+  color: $color;
+}
+
+.list li {
+  margin-right: 20px;
+}
+
+.shop {
+  margin-left: -100px;
+}
