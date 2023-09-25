@@ -1,7 +1,7 @@
-import Bluebar from "./components/blue-bar-pagemain/bluebar";
+import Keto from "./components/keto/keto";
 
 function App() {
-  return <Bluebar />;
+  return <Keto />;
 }
 
 export default App;

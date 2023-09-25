@@ -1,0 +1,21 @@
+$font-stack: "lato";
+$margin: 0px;
+$padding: 0px;
+
+body {
+  font: 100% $font-stack;
+  margin: $margin;
+  padding: $padding;
+}
+
+.blue_bar_container {
+  h4 {
+    margin: 0;
+    color: #fff;
+    letter-spacing: 0.2em;
+  }
+  display: flex;
+  background-color: #7e99da;
+  padding: 10px 0px;
+  justify-content: center;
+}
