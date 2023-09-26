@@ -42,6 +42,41 @@ const Keto = () => {
         <div>
           <Secondbuttonget />
         </div>
+
+        <div className="celestiallandscape">
+          <img src="/img/fondopaisaje2.png" alt="Fondo Paisaje" />
+          <div className="titlecelestial">
+            <p className="titleA">
+              An Essential Element in{" "}
+              <span class="boldtext">
+                {" "}
+                Rapid <br />
+                Ketosis & Weight Management
+              </span>{" "}
+            </p>
+            <div className="paragraph">
+              <p>
+                There sure is a lot of hype around the trendy ketogenic diet on
+                the internet right now. The ketogenic diet is high in fat and
+                low in carbohydrates. It boasts several benefits, including
+                weight loss. Many people also experience improved heart health
+                and enhanced brain function. The downside? The ketogenic diet
+                isn't necessarily easy to follow. You might need an extra boost.
+              </p>
+              <p>
+                This Bundle product is a highly-recommended addition to your
+                diet as well as a potent solution to getting down to your
+                desired weight and achieving the body you want - in the
+                healthiest and most effective way possible. By taking Keto+ BHB
+                Salts and Keto+ Drops, you too can have your own weight loss
+                journey success story minus the painful and grueling process.
+              </p>
+            </div>
+            <div>
+              <Secondbuttonget />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
