@@ -24,23 +24,44 @@ body {
   justify-content: center;
 }
 
-.featured {
-  width: 100%;
-  background-color: #f0f3f5;
-  .logos {
+.dropsketo {
+  margin-top: 65px;
+  h2 {
+    text-align: center;
+    color: #4d78cc;
+    font-weight: normal;
+    font-size: 30px;
+  }
+
+  .icon {
     display: flex;
-    list-style: none;
-    margin-left: 100px;
-    justify-content: space-between;
     align-items: center;
-    padding: 25px;
-    li {
-      margin-left: 0 10px;
+    justify-content: center;
+    margin-top: 35px;
+    img {
+      margin-right: 60px;
     }
-    .img {
-      max-height: 100px;
-      max-width: 100%;
-      display: block;
+  }
+  .iconp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #142348;
+    font-weight: bold;
+    font-size: 18px;
+    .suppres {
+      margin-right: 115px;
     }
+    .boost {
+      margin-right: 120px;
+    }
+
+    .encou {
+      margin-right: 40px;
+    }
+  }
+
+  .Buttongetyours {
+    align-items: center;
   }
 }
