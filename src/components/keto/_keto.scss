@@ -23,3 +23,85 @@ body {
   padding: 10px 0px;
   justify-content: center;
 }
+
+.dropsketo {
+  margin-top: 65px;
+  h2 {
+    text-align: center;
+    color: #4d78cc;
+    font-weight: normal;
+    font-size: 30px;
+  }
+
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    img {
+      margin-right: 60px;
+    }
+  }
+  .iconp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #142348;
+    font-weight: bold;
+    font-size: 18px;
+    .suppres {
+      margin-right: 115px;
+    }
+    .boost {
+      margin-right: 120px;
+    }
+
+    .encou {
+      margin-right: 40px;
+    }
+  }
+
+  .Buttongetyours {
+    align-items: center;
+  }
+}
+
+.celestiallandscape {
+  position: relative;
+  width: 100%;
+  color: #fff;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .titlecelestial {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px;
+    margin-top: -20px;
+
+    .titleA {
+      font-size: 38px;
+      text-align: center;
+      font-weight: normal;
+      .boldtext {
+        font-weight: bold;
+      }
+    }
+  }
+  .paragraph {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    p {
+      text-align: center;
+      margin-right: 90px;
+      margin-left: 90px;
+      line-height: 1.5;
+    }
+  }
+}
