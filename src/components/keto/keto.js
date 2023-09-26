@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Ketosisband from "./Ketosisband";
 
 const Keto = () => {
   return (
@@ -10,6 +11,10 @@ const Keto = () => {
 
       <div>
         <Navbar />
+      </div>
+
+      <div>
+        <Ketosisband />
       </div>
     </div>
   );

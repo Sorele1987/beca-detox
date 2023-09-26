@@ -2,6 +2,10 @@ $font-stack: "lato";
 $margin: 0px;
 $padding: 0px;
 
+html {
+  box-sizing: border-box;
+}
+
 body {
   font: 100% $font-stack;
   margin: $margin;
