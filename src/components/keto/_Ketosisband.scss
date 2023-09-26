@@ -45,7 +45,7 @@ $color: #081e57;
   flex-direction: column;
   margin-left: 60px;
   h1 {
-    padding-top: 120px;
+    padding-top: 130px;
     font-weight: normal;
     color: $color;
     .boldtext {
@@ -62,9 +62,15 @@ $color: #081e57;
     }
   }
 
+  .lorem {
+    padding-top: 20px;
+    font-style: normal;
+  }
+
   .verifiedbuyerharry {
     display: flex;
     align-items: center;
+    padding-top: 20px;
     .buyerinfo {
       flex-direction: column;
       margin-left: 20px;

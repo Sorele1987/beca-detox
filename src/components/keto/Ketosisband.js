@@ -55,7 +55,7 @@ const Keto = () => {
           <Cardbar />
         </div>
 
-        <p>
+        <p class="lorem">
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed est
           vehicula, tempor lorem eu, sodales lacus. Morbi a luctus orci.
           Suspendisse potenti. Nulla ullamcorper quis dolor et rhoncus."

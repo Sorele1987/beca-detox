@@ -23,3 +23,24 @@ body {
   padding: 10px 0px;
   justify-content: center;
 }
+
+.featured {
+  width: 100%;
+  background-color: #f0f3f5;
+  .logos {
+    display: flex;
+    list-style: none;
+    margin-left: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    li {
+      margin-left: 0 10px;
+    }
+    .img {
+      max-height: 100px;
+      max-width: 100%;
+      display: block;
+    }
+  }
+}
