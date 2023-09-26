@@ -1,7 +1,10 @@
-//UI Settimgs.
+//UI Settings.
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Lato&display=swap");
 
 //Components.
 
-// @import "./components/navbar";
-
-//Screens
+@import "../components/keto/_keto.scss";
+@import "../components/keto/Navbar";
+@import "../components/keto/Ketosisband";
+@import "../components/keto/Buttongetyours";
+@import "../components/keto/Cardbar";
