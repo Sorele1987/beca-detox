@@ -6,6 +6,7 @@ import Featuredband from "./Featuredband";
 import Ingredientcards from "./Ingredientcards";
 import Numbersband from "./Numbersband";
 import Usersband from "./Usersband";
+import Madeband from "./Madeband";
 
 const Keto = () => {
   return (
@@ -105,6 +106,10 @@ const Keto = () => {
 
       <div>
         <Usersband />
+      </div>
+
+      <div>
+        <Madeband />
       </div>
     </div>
   );
