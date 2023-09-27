@@ -3,6 +3,9 @@ import Navbar from "./Navbar";
 import Ketosisband from "./Ketosisband";
 import Secondbuttonget from "./Secondbuttonget";
 import Featuredband from "./Featuredband";
+import Ingredientcards from "./Ingredientcards";
+import Numbersband from "./Numbersband";
+import Usersband from "./Usersband";
 
 const Keto = () => {
   return (
@@ -77,6 +80,31 @@ const Keto = () => {
             </div>
           </div>
         </div>
+
+        <div>
+          <Ingredientcards />
+        </div>
+      </div>
+
+      <div className="guaranteed">
+        <div className="img90">
+          <img src="/img/logocircular90.png" alt="Guaranteed" />
+        </div>
+        <div className="description90">
+          <h3>100% Satisfaction Guaranteed</h3>
+          <p>
+            Try Reagan Health products risk free for 90 days. If you're not
+            <br />
+            fully satisfied, we will give you a 100% hassle-free refund{" "}
+          </p>
+        </div>
+      </div>
+      <div>
+        <Numbersband />
+      </div>
+
+      <div>
+        <Usersband />
       </div>
     </div>
   );

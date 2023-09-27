@@ -1,0 +1,89 @@
+.userband {
+  margin-top: 75px;
+  text-align: center;
+  background-color: #4575d8;
+  padding: 20px;
+
+  h2 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 30px;
+    padding-top: 40px;
+    font-weight: bold;
+  }
+}
+
+.usercard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 20px;
+
+  .card1,
+  .card2,
+  .card3 {
+    width: 250px;
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .carddesc {
+      color: #142348;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+
+    .stars {
+      margin-top: 10px;
+      img {
+        max-width: 100px;
+        height: auto;
+      }
+    }
+
+    .cardname {
+      color: #142348;
+      font-weight: bold;
+      margin-top: 10px;
+      font-size: 10px;
+
+      img {
+        max-width: 20px;
+        height: auto;
+        margin-left: 5px;
+      }
+    }
+  }
+
+  .flechaizquierda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  .flechaderecha {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 40px;
+  }
+
+  .dots {
+    width: 100%;
+    text-align: center;
+    margin-left: 150px;
+  }
+}

@@ -40,10 +40,22 @@ const Keto = () => {
 
         <nav>
           <ul className="benefitslist">
-            <li>Increases blood ketone levels</li>
-            <li>Helps to achieve Ketosis</li>
-            <li>May help with weight loss</li>
-            <li>Reduces the amount of time to reach ketosis</li>
+            <li>
+              <img src="/img/checksol.png" alt="check" />
+              Increases blood ketone levels
+            </li>
+            <li>
+              <img src="/img/checksol.png" alt="check" />
+              Helps to achieve Ketosis
+            </li>
+            <li>
+              <img src="/img/checksol.png" alt="check" />
+              May help with weight loss
+            </li>
+            <li>
+              <img src="/img/checksol.png" alt="check" />
+              Reduces the amount of time to reach ketosis
+            </li>
           </ul>
         </nav>
 
