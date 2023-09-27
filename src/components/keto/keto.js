@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Ketosisband from "./Ketosisband";
 import Secondbuttonget from "./Secondbuttonget";
 import Featuredband from "./Featuredband";
+import Ingredientcards from "./Ingredientcards";
 
 const Keto = () => {
   return (
@@ -76,6 +77,10 @@ const Keto = () => {
               <Secondbuttonget />
             </div>
           </div>
+        </div>
+
+        <div>
+          <Ingredientcards />
         </div>
       </div>
     </div>

@@ -1,0 +1,109 @@
+.ingredientcards {
+  margin-top: 65px;
+  .description {
+    text-align: center;
+    color: #4d78cc;
+    font-weight: normal;
+    font-size: 28px;
+    .boldtext {
+      font-weight: bold;
+    }
+  }
+}
+
+.box {
+  display: flex;
+  max-width: 1200px;
+  margin: 5rem auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+  .cards {
+    display: flex;
+    margin-left: 90px;
+
+    .box_cards1 {
+      flex-direction: row;
+      width: 28rem;
+      height: 30rem;
+      margin-right: 50px;
+      border-radius: 50px;
+      border: 2px solid #f1f1f3;
+    }
+
+    .box_cards2 {
+      flex-direction: row;
+      width: 28rem;
+      height: 30rem;
+      margin-right: 50px;
+      border-radius: 50px;
+      border: 1px solid #f1f1f3;
+    }
+  }
+  .box_cards_number {
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    border-radius: 25px 0 0 25px;
+  }
+  .box_cards_title1 {
+    display: flex;
+    margin-top: -2rem;
+    color: #142348;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .box_cards_title2 {
+    display: flex;
+    margin-top: 2.2rem;
+    color: #142348;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .box_cards_description1 {
+    display: flex;
+    margin-top: 1rem;
+    color: #142348;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-right: 40px;
+    margin-left: 35px;
+  }
+  .box_cards_description2 {
+    display: flex;
+    margin-top: 1rem;
+    color: #142348;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-right: 40px;
+    margin-left: 35px;
+  }
+  .perks_number {
+    background-color: #142348;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 50px;
+    margin-top: 40px;
+  }
+  img {
+    padding-top: 0.5px;
+    margin-left: 90px;
+  }
+
+  .flechaiz {
+    padding-top: -30px;
+    margin-left: -115px;
+  }
+  .flechader {
+    margin-top: -160px;
+    margin-left: 330px;
+  }
+}
