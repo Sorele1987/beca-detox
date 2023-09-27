@@ -1,11 +1,11 @@
-.ingredientcards {
+.ingredientCards {
   margin-top: 65px;
   .description {
     text-align: center;
     color: #4d78cc;
     font-weight: normal;
     font-size: 28px;
-    .boldtext {
+    .boldText {
       font-weight: bold;
     }
   }
@@ -22,7 +22,7 @@
     display: flex;
     margin-left: 90px;
 
-    .box_cards1 {
+    .boxCards1 {
       flex-direction: row;
       width: 28rem;
       height: 30rem;
@@ -31,7 +31,7 @@
       border: 2px solid #f1f1f3;
     }
 
-    .box_cards2 {
+    .boxCards2 {
       flex-direction: row;
       width: 28rem;
       height: 30rem;
@@ -40,13 +40,13 @@
       border: 1px solid #f1f1f3;
     }
   }
-  .box_cards_number {
+  .boxCardsNumber {
     display: flex;
     justify-content: end;
     text-align: center;
     border-radius: 25px 0 0 25px;
   }
-  .box_cards_title1 {
+  .boxCardsTitle1 {
     display: flex;
     margin-top: -2rem;
     color: #142348;
@@ -54,7 +54,7 @@
     font-weight: bold;
     font-size: 20px;
   }
-  .box_cards_title2 {
+  .boxCardsTitle2 {
     display: flex;
     margin-top: 2.2rem;
     color: #142348;
@@ -62,7 +62,7 @@
     font-weight: bold;
     font-size: 20px;
   }
-  .box_cards_description1 {
+  .boxCardsDescription1 {
     display: flex;
     margin-top: 1rem;
     color: #142348;
@@ -71,7 +71,7 @@
     margin-right: 40px;
     margin-left: 35px;
   }
-  .box_cards_description2 {
+  .boxCardsDescription2 {
     display: flex;
     margin-top: 1rem;
     color: #142348;
@@ -80,7 +80,7 @@
     margin-right: 40px;
     margin-left: 35px;
   }
-  .perks_number {
+  .perksNumber {
     background-color: #142348;
     display: flex;
     justify-content: center;
@@ -98,11 +98,11 @@
     margin-left: 90px;
   }
 
-  .flechaiz {
+  .flechaIz {
     padding-top: -30px;
     margin-left: -115px;
   }
-  .flechader {
+  .flechaDer {
     margin-top: -160px;
     margin-left: 330px;
   }

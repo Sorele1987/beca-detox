@@ -1,44 +1,43 @@
-import React from "react";
-import Secondbuttonget from "./Secondbuttonget";
+import SecondButtonGet from "./SecondButtonGet";
 
 const Keto = () => {
   return (
-    <div className="ingredientcards">
+    <div className="ingredientCards">
       <p className="description">
         Using a combination of{" "}
-        <span class="boldtext"> premiun-quality ingredients,</span> <br /> the
+        <span class="boldText"> premiun-quality ingredients,</span> <br /> the
         Keto+ BHB Salts and Keto+ Drops work to encourage rapid <br /> ketosis,
         boosting metabolism and promoting better digestion
       </p>
       <div class="box">
         <section class="cards">
-          <div class="box_cards1">
-            <div class="box_cards_number">
-              <span class="perks_number">1</span>
+          <div class="boxCards1">
+            <div class="boxCardsNumber">
+              <span class="perksNumber">1</span>
             </div>
             <img src="/img/fruta1.png" alt="Raspberry" />
-            <div className="flechaiz">
+            <div className="flechaIz">
               <img src="/img/flechaiz.png" alt="left" />
             </div>
-            <p class="box_cards_title1">RASPBERRY KETONE</p>
-            <p class="box_cards_description1">
+            <p class="boxCardsTitle1">RASPBERRY KETONE</p>
+            <p class="boxCardsDescription1">
               Breaks down the fat within cells more effectively, helping your
               body burn fat faster, and increases levels of adiponectin, a
               hormone that helps regulate metabolism.
             </p>
           </div>
-          <div class="box_cards2">
-            <div class="box_cards_number">
-              <span class="perks_number">2</span>
+          <div class="boxCards2">
+            <div class="boxCardsNumber">
+              <span class="perksNumber">2</span>
             </div>
             <img src="/img/fruta2.png" alt="GRAPEFRUIT" />
-            <p class="box_cards_title2">GRAPEFRUIT POWDER</p>
-            <p class="box_cards_description2">
+            <p class="boxCardsTitle2">GRAPEFRUIT POWDER</p>
+            <p class="boxCardsDescription2">
               Fiber and water properties promote fullness and appetite control
               which can reduce calorie intake; loe in calories and high in
               nutrients.
             </p>
-            <div className="flechader">
+            <div className="flechaDer">
               <img src="/img/flechader.png" alt="right" />
             </div>
           </div>
@@ -46,7 +45,7 @@ const Keto = () => {
       </div>
 
       <div>
-        <Secondbuttonget />
+        <SecondButtonGet />
       </div>
     </div>
   );

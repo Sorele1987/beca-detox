@@ -14,7 +14,7 @@ $color: #081e57;
   height: 100%;
 }
 
-.circularlogolist {
+.circularLogoList {
   padding-top: 195px;
   margin-left: 115px;
 
@@ -31,12 +31,12 @@ $color: #081e57;
   }
 }
 
-.frascograndeketo {
+.frascoGrandeKeto {
   padding-top: 130px;
   margin-left: 40px;
 }
 
-.frascochicoketo {
+.frascoChicoKeto {
   padding-top: 245px;
   margin-left: -35px;
 }
@@ -48,11 +48,11 @@ $color: #081e57;
     padding-top: 130px;
     font-weight: normal;
     color: $color;
-    .boldtext {
+    .boldText {
       font-weight: bold;
     }
   }
-  .benefitslist {
+  .benefitsList {
     list-style: none;
     color: $color;
     font-size: 20px;
@@ -67,17 +67,17 @@ $color: #081e57;
     font-style: normal;
   }
 
-  .verifiedbuyerharry {
+  .verifiedBuyerHarry {
     display: flex;
     align-items: center;
     padding-top: 20px;
-    .buyerinfo {
+    .buyerInfo {
       flex-direction: column;
       margin-left: 20px;
       padding-top: 10px;
     }
 
-    .imgstars {
+    .imgStars {
       margin-top: -10px;
       margin-left: 5px;
     }

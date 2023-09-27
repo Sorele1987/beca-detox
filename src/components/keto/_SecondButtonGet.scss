@@ -1,17 +1,21 @@
-.buttonget {
+.buttonGet2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 10px;
-  .btngetyourstoday {
-    display: flex;
-    padding: 1.25rem 8.7rem;
+  height: 100%;
+  margin-bottom: 70px;
+
+  .btnGetYoursToday2 {
+    display: inline-block;
+    padding: 0.8rem 4.5rem;
     border-radius: 50px;
-    justify-content: center;
     font-weight: bold;
     font-size: 18px;
     margin-left: 5px;
     text-decoration: none;
     color: #fff;
     background-color: #21ba36;
-    width: 12rem;
     transition: all 0.2s;
   }
 }

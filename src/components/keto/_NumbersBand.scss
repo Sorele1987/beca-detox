@@ -1,4 +1,4 @@
-.numbersband {
+.numbersBand {
   margin-top: 65px;
 
   h2 {
@@ -36,24 +36,18 @@
     margin-left: 96px;
   }
 
-  .titlenumb {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
   .support,
-  .boostnumb,
+  .boostNumb,
   .manage,
   .improve {
-    margin-right: 20px; /* Espacio entre los títulos */
-    font-size: 16px; /* Tamaño de los títulos */
+    margin-right: 20px;
+    font-size: 16px;
     font-weight: bold;
     color: #4d78cc;
     font-size: 20px;
   }
 
-  .descriptionnumb {
+  .descriptionNumb {
     display: flex;
     flex-direction: column;
     align-items: center;

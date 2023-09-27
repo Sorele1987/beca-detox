@@ -1,0 +1,21 @@
+.addButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  height: 100%;
+  margin-bottom: 70px;
+
+  .addButton1 {
+    display: inline-block;
+    padding: 0.8rem 4rem;
+    border-radius: 50px;
+    font-weight: normal;
+    font-size: 13px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #21ba36;
+    transition: all 0.2s;
+  }
+}

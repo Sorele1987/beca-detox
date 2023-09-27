@@ -1,0 +1,106 @@
+.readyBand {
+  background-color: #142348;
+  padding: 50px;
+  .rated {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .titleRe {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    h2 {
+      font-weight: normal;
+      font-size: 38px;
+      margin-top: 10px;
+    }
+    .pick {
+      font-size: 27px;
+      margin-top: -20px;
+    }
+  }
+}
+
+.subti1,
+.subti2,
+.subti3 {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #142348;
+}
+
+.allCards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  margin-left: 20px;
+
+  .card2Frasco,
+  .card4Frasco,
+  .card6Frasco {
+    width: 250px;
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    padding: 33px;
+    height: 400px;
+    border-radius: 9px;
+  }
+  .frascoDesc2,
+  .frascoDesc4,
+  .frascoDesc6 {
+    color: #21ba36;
+    font-size: 18px;
+    font-weight: bold;
+    .subrayado1,
+    .subrayado2 {
+      color: #505050;
+      font-weight: normal;
+      text-decoration: line-through;
+    }
+  }
+  .red1,
+  .red2 {
+    margin-top: -15px;
+    margin-bottom: 10px;
+    color: #ff3e3e;
+    font-weight: bold;
+  }
+
+  .img4 {
+    margin-top: 10px;
+  }
+  .img6 {
+    margin-top: 25px;
+  }
+  .card4Frasco {
+    border: 5px solid #fb7423;
+  }
+  .card6Frasco {
+    border: 5px solid #4672da;
+  }
+
+  .imgBestValue {
+    position: absolute;
+    top: 5273px;
+    left: 50.1%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  .imgMostPopular {
+    position: absolute;
+    top: 5273px;
+    left: 83.5%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+}

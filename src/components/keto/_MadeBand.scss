@@ -1,0 +1,68 @@
+.madeBand {
+  margin-top: 0.5px;
+  margin-left: 50px;
+  background-color: #f0f3f5;
+  padding: 20px;
+  margin-left: -10px;
+
+  h2 {
+    text-align: center;
+    color: #4d78cc;
+    font-weight: normal;
+    font-size: 35px;
+  }
+
+  .mades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-left: 30px;
+  }
+  .made {
+    text-align: center;
+  }
+
+  .usa,
+  .gmp,
+  .fda,
+  .natural {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 20px;
+    margin-left: 96px;
+    margin-left: 15px;
+  }
+
+  .madeInUsa,
+  .gmpCertified,
+  .fdaApproved,
+  .allNaturall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4d78cc;
+    font-size: 20px;
+  }
+
+  .usaDesc,
+  .gmpDesc,
+  .fdaDesc,
+  .naturalDesc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #142348;
+    font-weight: normal;
+    font-size: 11px;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-top: 10px;
+  }
+}

@@ -1,32 +1,34 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Ketosisband from "./Ketosisband";
-import Secondbuttonget from "./Secondbuttonget";
-import Featuredband from "./Featuredband";
-import Ingredientcards from "./Ingredientcards";
-import Numbersband from "./Numbersband";
-import Usersband from "./Usersband";
+import NavBar from "./NavBar";
+import KetosisBand from "./KetosisBand";
+import SecondButtonGet from "./SecondButtonGet";
+import FeaturedBand from "./FeaturedBand";
+import IngredientCards from "./IngredientCards";
+import NumbersBand from "./NumbersBand";
+import UsersBand from "./UsersBand";
+import MadeBand from "./MadeBand";
+import ReadyBand from "./ReadyBand";
 
 const Keto = () => {
   return (
-    <div className="maincontainer">
-      <div className="blue_bar_container">
+    <div className="mainContainer">
+      <div className="blueBarContainer">
         <h4>90 DAYS MONEY BACK GUARANTEE</h4>
       </div>
 
       <div>
-        <Navbar />
+        <NavBar />
       </div>
 
       <div>
-        <Ketosisband />
+        <KetosisBand />
       </div>
 
       <div>
-        <Featuredband />
+        <FeaturedBand />
       </div>
 
-      <div className="dropsketo">
+      <div className="dropsKeto">
         <h2>
           Our Keto+ Drops and Keto+ BHB
           <br />
@@ -43,15 +45,15 @@ const Keto = () => {
           <p className="encou">Encourage Ketosis</p>
         </div>
         <div>
-          <Secondbuttonget />
+          <SecondButtonGet />
         </div>
 
-        <div className="celestiallandscape">
+        <div className="celestialLandscape">
           <img src="/img/fondopaisaje2.png" alt="Fondo Paisaje" />
-          <div className="titlecelestial">
+          <div className="titleCelestial">
             <p className="titleA">
               An Essential Element in{" "}
-              <span class="boldtext">
+              <span class="boldText">
                 {" "}
                 Rapid <br />
                 Ketosis & Weight Management
@@ -76,13 +78,13 @@ const Keto = () => {
               </p>
             </div>
             <div>
-              <Secondbuttonget />
+              <SecondButtonGet />
             </div>
           </div>
         </div>
 
         <div>
-          <Ingredientcards />
+          <IngredientCards />
         </div>
       </div>
 
@@ -100,12 +102,53 @@ const Keto = () => {
         </div>
       </div>
       <div>
-        <Numbersband />
+        <NumbersBand />
       </div>
 
       <div>
-        <Usersband />
+        <UsersBand />
       </div>
+
+      <div>
+        <MadeBand />
+      </div>
+
+      <div className="titleQ">
+        <p>Questions? We've Got You Covered!</p>
+      </div>
+      <div className="question">
+        <div className="questionBox">
+          <p className="ask">Does it work?</p>
+          <img src="/img/flechaabajo.png" alt="Arrow" className="arrow" />
+        </div>
+        <div className="questionBox">
+          <p className="ask"> Is it harmful?</p>
+          <img src="/img/flechaabajo.png" alt="Arrow" className="arrow" />
+        </div>
+        <div className="questionBox">
+          <p className="ask">How long does the shipping take?</p>
+          <img src="/img/flechaabajo.png" alt="Arrow" className="arrow" />
+        </div>
+        <div className="questionBox">
+          <p className="ask">Is there a shipping cost?</p>
+          <img src="/img/flechaabajo.png" alt="Arrow" className="arrow" />
+        </div>
+        <div className="questionBox">
+          <p className="ask">How soon can I expect results?</p>
+          <img src="/img/flechaabajo.png" alt="Arrow" className="arrow" />
+        </div>
+      </div>
+
+      <div>
+        <ReadyBand />
+      </div>
+      <footer>
+        <p className="copyRight"> © Copyright 2020. Regen Health</p>
+        <p className="imgRegen">
+          <img src="/img/logoregenhealth.png" alt="logoregen" />
+        </p>
+        <p className="terms"> Terms & Conditions - Privacy Policy</p>
+      </footer>
     </div>
   );
 };

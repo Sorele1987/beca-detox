@@ -1,19 +1,17 @@
-import React from "react";
-
 const Keto = () => {
   return (
-    <div className="userband">
+    <div className="userBand">
       <h2>Hundreds Of Users Are Raving About Their Results</h2>
 
-      <div className="usercard">
-        <span class="flechaizquierda">
+      <div className="userCard">
+        <span class="flechaIzquierda">
           <img src="/img/flechaiznueva.png" alt="Arrowleft" />
         </span>
 
         {/* Primera tarjeta */}
         <div className="card1">
           <img src="/img/fotohombre.png" alt="Russ" />
-          <p className="carddesc">
+          <p className="cardDesc">
             "Lorem ipsum dolor sit amet, consectetur
             <br /> adipiscing elit. Duis sed est vehicula,
             <br /> tempor lorem eu, sodales lacus. Morbi a<br /> luctus orci.
@@ -23,7 +21,7 @@ const Keto = () => {
           <div className="stars">
             <img src="/img/starsbuyer.png" alt="Stars" />
           </div>
-          <p className="cardname">
+          <p className="cardName">
             RUSS K. <img src="/img/checkverde.png" alt="check" />
             Verified Buyer
           </p>
@@ -31,7 +29,7 @@ const Keto = () => {
         {/* Segunda tarjeta */}
         <div className="card2">
           <img src="/img/fotohombre.png" alt="Russ" />
-          <p className="carddesc">
+          <p className="cardDesc">
             "Lorem ipsum dolor sit amet, consectetur
             <br /> adipiscing elit. Duis sed est vehicula,
             <br /> tempor lorem eu, sodales lacus. Morbi a<br /> luctus orci.
@@ -41,7 +39,7 @@ const Keto = () => {
           <div className="stars">
             <img src="/img/starsbuyer.png" alt="Stars" />
           </div>
-          <p className="cardname">
+          <p className="cardName">
             RUSS K. <img src="/img/checkverde.png" alt="check" />
             Verified Buyer
           </p>
@@ -49,7 +47,7 @@ const Keto = () => {
         {/* Tercera tarjeta */}
         <div className="card3">
           <img src="/img/fotohombre.png" alt="Russ" />
-          <p className="carddesc">
+          <p className="cardDesc">
             "Lorem ipsum dolor sit amet, consectetur
             <br /> adipiscing elit. Duis sed est vehicula,
             <br /> tempor lorem eu, sodales lacus. Morbi a<br /> luctus orci.
@@ -59,13 +57,13 @@ const Keto = () => {
           <div className="stars">
             <img src="/img/starsbuyer.png" alt="Stars" />
           </div>
-          <p className="cardname">
+          <p className="cardName">
             RUSS K. <img src="/img/checkverde.png" alt="check" />
             Verified Buyer
           </p>
         </div>
 
-        <span class="flechaderecha">
+        <span class="flechaDerecha">
           <img src="/img/flechaderenueva.png" alt="Arrowrights" />
         </span>
       </div>
