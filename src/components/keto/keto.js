@@ -5,6 +5,7 @@ import Secondbuttonget from "./Secondbuttonget";
 import Featuredband from "./Featuredband";
 import Ingredientcards from "./Ingredientcards";
 import Numbersband from "./Numbersband";
+import Usersband from "./Usersband";
 
 const Keto = () => {
   return (
@@ -100,6 +101,10 @@ const Keto = () => {
       </div>
       <div>
         <Numbersband />
+      </div>
+
+      <div>
+        <Usersband />
       </div>
     </div>
   );
