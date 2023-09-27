@@ -181,3 +181,23 @@ body {
   margin-left: auto;
   margin-top: -35px;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #142348;
+  font-size: 11px;
+  font-weight: bold;
+  .copyright {
+    margin-left: 10px;
+  }
+  .imgregen {
+    margin-right: 30px;
+    margin-left: 250px;
+  }
+  .terms {
+    margin-right: 40px;
+    margin-left: 130px;
+  }
+}

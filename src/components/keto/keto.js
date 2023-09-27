@@ -7,6 +7,7 @@ import Ingredientcards from "./Ingredientcards";
 import Numbersband from "./Numbersband";
 import Usersband from "./Usersband";
 import Madeband from "./Madeband";
+import Readyband from "./Readyband";
 
 const Keto = () => {
   return (
@@ -137,6 +138,17 @@ const Keto = () => {
           <img src="/img/flechaabajo.png" alt="Arrow" className="arrow" />
         </div>
       </div>
+
+      <div>
+        <Readyband />
+      </div>
+      <footer>
+        <p className="copyright"> © Copyright 2020. Regen Health</p>
+        <p className="imgregen">
+          <img src="/img/logoregenhealth.png" alt="logoregen" />
+        </p>
+        <p className="terms"> Terms & Conditions - Privacy Policy</p>
+      </footer>
     </div>
   );
 };
