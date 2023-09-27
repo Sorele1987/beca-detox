@@ -1,4 +1,4 @@
-.userband {
+.userBand {
   margin-top: 75px;
   text-align: center;
   background-color: #4575d8;
@@ -13,7 +13,7 @@
   }
 }
 
-.usercard {
+.userCard {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,7 +36,7 @@
       height: auto;
     }
 
-    .carddesc {
+    .cardDesc {
       color: #142348;
       font-size: 14px;
       margin-top: 10px;
@@ -50,7 +50,7 @@
       }
     }
 
-    .cardname {
+    .cardName {
       color: #142348;
       font-weight: bold;
       margin-top: 10px;
@@ -64,7 +64,7 @@
     }
   }
 
-  .flechaizquierda {
+  .flechaIzquierda {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +72,7 @@
     margin-top: 20px;
     margin-left: 40px;
   }
-  .flechaderecha {
+  .flechaDerecha {
     display: flex;
     justify-content: left;
     align-items: center;

@@ -1,9 +1,7 @@
-import React from "react";
-
 const Keto = () => {
   return (
-    <div className="buttonget2">
-      <a href="#" class="btngetyourstoday2">
+    <div className="buttonGet">
+      <a href="" class="btnGetYoursToday">
         👉 GET YOURS TODAY
       </a>
     </div>

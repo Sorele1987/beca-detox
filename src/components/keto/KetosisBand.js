@@ -1,6 +1,5 @@
-import React from "react";
-import Buttongetyours from "./Buttongetyours";
-import Cardbar from "./Cardbar";
+import ButtonGetYours from "./ButtonGetYours";
+import CardBar from "./CardBar";
 
 const Keto = () => {
   return (
@@ -9,7 +8,7 @@ const Keto = () => {
         <img src="/img/fondopaisaje.png" alt="paisaje" />
       </div>
 
-      <div className="circularlogolist">
+      <div className="circularLogoList">
         <div className="circulo1">
           <img src="/img/logocircular1.png" alt="logo90" />
         </div>
@@ -24,22 +23,22 @@ const Keto = () => {
         </div>
       </div>
 
-      <div className="frascograndeketo">
+      <div className="frascoGrandeKeto">
         <img src="/img/frascograndeketo.png" alt="KETOGP" />
       </div>
 
-      <div className="frascochicoketo">
+      <div className="frascoChicoKeto">
         <img src="/img/frascochicoketo.png" alt="KETO" />
       </div>
 
       <div className="section1">
         <h1>
           An Effective Way For{" "}
-          <span class="boldtext"> Rapid Ketosis & Weight Management</span>
+          <span class="boldText"> Rapid Ketosis & Weight Management</span>
         </h1>
 
         <nav>
-          <ul className="benefitslist">
+          <ul className="benefitsList">
             <li>
               <img src="/img/checksol.png" alt="check" />
               Increases blood ketone levels
@@ -60,11 +59,11 @@ const Keto = () => {
         </nav>
 
         <div>
-          <Buttongetyours />
+          <ButtonGetYours />
         </div>
 
         <div>
-          <Cardbar />
+          <CardBar />
         </div>
 
         <p class="lorem">
@@ -73,13 +72,13 @@ const Keto = () => {
           Suspendisse potenti. Nulla ullamcorper quis dolor et rhoncus."
         </p>
 
-        <div className="verifiedbuyerharry">
+        <div className="verifiedBuyerHarry">
           <img src="/img/fotharry.png" alt="Harry" />
-          <div class="buyerinfo">
+          <div class="buyerInfo">
             <p>
               Harry R. <img src="/img/check.png" alt="check" /> Verified Buyer
             </p>
-            <p class="imgstars">
+            <p class="imgStars">
               <img src="/img/starsbuyer.png" alt="Rate" />
             </p>
           </div>

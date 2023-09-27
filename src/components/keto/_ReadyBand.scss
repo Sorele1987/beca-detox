@@ -1,4 +1,4 @@
-.readyband {
+.readyBand {
   background-color: #142348;
   padding: 50px;
   .rated {
@@ -35,16 +35,16 @@
   color: #142348;
 }
 
-.allcards {
+.allCards {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 100px;
   margin-left: 20px;
 
-  .card2frasco,
-  .card4frasco,
-  .card6frasco {
+  .card2Frasco,
+  .card4Frasco,
+  .card6Frasco {
     width: 250px;
     background-color: #ffffff;
     border: 1px solid #e1e1e1;
@@ -55,9 +55,9 @@
     height: 400px;
     border-radius: 9px;
   }
-  .frascodesc2,
-  .frascodesc4,
-  .frascodesc6 {
+  .frascoDesc2,
+  .frascoDesc4,
+  .frascoDesc6 {
     color: #21ba36;
     font-size: 18px;
     font-weight: bold;
@@ -82,21 +82,21 @@
   .img6 {
     margin-top: 25px;
   }
-  .card4frasco {
+  .card4Frasco {
     border: 5px solid #fb7423;
   }
-  .card6frasco {
+  .card6Frasco {
     border: 5px solid #4672da;
   }
 
-  .imgbestvalue {
+  .imgBestValue {
     position: absolute;
     top: 5273px;
     left: 50.1%;
     transform: translateX(-50%);
     z-index: 1;
   }
-  .imgmostpopular {
+  .imgMostPopular {
     position: absolute;
     top: 5273px;
     left: 83.5%;

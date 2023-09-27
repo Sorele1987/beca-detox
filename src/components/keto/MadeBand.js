@@ -1,17 +1,16 @@
-import React from "react";
-import Secondbuttonget from "./Secondbuttonget";
+import SecondButtonGet from "./SecondButtonGet";
 
 const Keto = () => {
   return (
-    <div className="madeband">
+    <div className="madeBand">
       <h2>Regen Health Products Are Always...</h2>
       <div className="mades">
         <div className="made">
           <span class="usa">
             <img src="/img/usa.png" alt="USA" />
           </span>
-          <p className="madeinusa">Made in America</p>
-          <p className="usadesc">
+          <p className="madeInUsa">Made in America</p>
+          <p className="usaDesc">
             We are proud that ALL Regen Health
             <br /> products are made in the USA. The
             <br />
@@ -22,8 +21,8 @@ const Keto = () => {
           <span class="gmp">
             <img src="/img/gmp.png" alt="GMP" />
           </span>
-          <p className="gmpcertified">GMP Certified</p>
-          <p className="gmpdesc">
+          <p className="gmpCertified">GMP Certified</p>
+          <p className="gmpDesc">
             All products distributed and
             <br /> manufactured by Regen Health are
             <br />
@@ -37,8 +36,8 @@ const Keto = () => {
           <span class="fda">
             <img src="/img/fda.png" alt="FDA" />
           </span>
-          <p className="fdaapproved">FDA Approved</p>
-          <p className="fdadesc">
+          <p className="fdaApproved">FDA Approved</p>
+          <p className="fdaDesc">
             All products distributed and <br /> manufactured by Regen Health are
             <br /> manufactured in a facility that is
             <br /> approved by the U.S. Food and Drug
@@ -49,8 +48,8 @@ const Keto = () => {
           <span class="natural">
             <img src="/img/natural.png" alt="NATURAL" />
           </span>
-          <p className="allnaturall">All Natural</p>
-          <p className="naturaldesc">
+          <p className="allNaturall">All Natural</p>
+          <p className="naturalDesc">
             Regen Health absolutely dos not use
             <br /> filter ingredients and other harmful
             <br /> chemicals or additives in their products.
@@ -62,7 +61,7 @@ const Keto = () => {
         </div>
       </div>
       <div>
-        <Secondbuttonget />
+        <SecondButtonGet />
       </div>
     </div>
   );

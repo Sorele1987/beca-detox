@@ -12,7 +12,7 @@ body {
   padding: $padding;
 }
 
-.blue_bar_container {
+.blueBarContainer {
   h4 {
     margin: 0;
     color: #fff;
@@ -24,7 +24,7 @@ body {
   justify-content: center;
 }
 
-.dropsketo {
+.dropsKeto {
   margin-top: 65px;
   h2 {
     text-align: center;
@@ -62,7 +62,7 @@ body {
   }
 }
 
-.celestiallandscape {
+.celestialLandscape {
   position: relative;
   width: 100%;
   color: #fff;
@@ -72,7 +72,7 @@ body {
     height: 100%;
   }
 
-  .titlecelestial {
+  .titleCelestial {
     position: absolute;
     top: 0;
     left: 0;
@@ -83,7 +83,7 @@ body {
       font-size: 38px;
       text-align: center;
       font-weight: normal;
-      .boldtext {
+      .boldText {
         font-weight: bold;
       }
     }
@@ -139,7 +139,7 @@ body {
   }
 }
 
-.titleq {
+.titleQ {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -164,7 +164,7 @@ body {
   margin-bottom: 80px;
 }
 
-.question-box {
+.questionBox {
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -189,10 +189,10 @@ footer {
   color: #142348;
   font-size: 11px;
   font-weight: bold;
-  .copyright {
+  .copyRight {
     margin-left: 10px;
   }
-  .imgregen {
+  .imgRegen {
     margin-right: 30px;
     margin-left: 250px;
   }

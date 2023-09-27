@@ -4,7 +4,7 @@ const Keto = () => {
   return (
     <div>
       <nav>
-        <ul className="cardBarfinal">
+        <ul className="cardBarFinal">
           <li>
             <img src="/img/paypal.png" alt="Paypal" />
           </li>

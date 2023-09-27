@@ -1,13 +1,11 @@
-import React from "react";
-
 const Keto = () => {
   return (
-    <div className="navbar">
+    <div className="navBar">
       <h1>
         <img src="/img/stars.png" alt="Rate" />
       </h1>
       <p className="review">AVERAGE REVIEW RATING OF 4.7 OUT OF 5</p>
-      <div className="logoregen">
+      <div className="logoRegen">
         <img src="/img/logoregenhealth.png" alt="logo" />
       </div>
       <nav>
