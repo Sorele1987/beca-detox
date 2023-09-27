@@ -83,6 +83,20 @@ const Keto = () => {
           <Ingredientcards />
         </div>
       </div>
+
+      <div className="guaranteed">
+        <div className="img90">
+          <img src="/img/logocircular90.png" alt="Guaranteed" />
+        </div>
+        <div className="description90">
+          <h3>100% Satisfaction Guaranteed</h3>
+          <p>
+            Try Reagan Health products risk free for 90 days. If you're not
+            <br />
+            fully satisfied, we will give you a 100% hassle-free refund{" "}
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
