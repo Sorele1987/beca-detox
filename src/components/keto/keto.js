@@ -4,6 +4,7 @@ import Ketosisband from "./Ketosisband";
 import Secondbuttonget from "./Secondbuttonget";
 import Featuredband from "./Featuredband";
 import Ingredientcards from "./Ingredientcards";
+import Numbersband from "./Numbersband";
 
 const Keto = () => {
   return (
@@ -96,6 +97,9 @@ const Keto = () => {
             fully satisfied, we will give you a 100% hassle-free refund{" "}
           </p>
         </div>
+      </div>
+      <div>
+        <Numbersband />
       </div>
     </div>
   );

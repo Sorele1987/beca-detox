@@ -60,10 +60,6 @@ body {
       margin-right: 40px;
     }
   }
-
-  .Buttongetyours {
-    align-items: center;
-  }
 }
 
 .celestiallandscape {
@@ -115,13 +111,16 @@ body {
 
   .description90 {
     text-align: center;
-    margin-top: 50px;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
     h3 {
       margin: 0;
       color: #fff;
       letter-spacing: 0.1em;
       font-size: 22px;
       font-weight: bold;
+      margin-top: 10px;
     }
     p {
       margin: 0;
