@@ -111,6 +111,32 @@ const Keto = () => {
       <div>
         <Madeband />
       </div>
+
+      <div className="titleq">
+        <p>Questions? We've Got You Covered!</p>
+      </div>
+      <div className="question">
+        <div className="question-box">
+          <p className="ask">Does it work?</p>
+          <img src="/img/flechaabajo.png" alt="Arrow" className="arrow" />
+        </div>
+        <div className="question-box">
+          <p className="ask"> Is it harmful?</p>
+          <img src="/img/flechaabajo.png" alt="Arrow" className="arrow" />
+        </div>
+        <div className="question-box">
+          <p className="ask">How long does the shipping take?</p>
+          <img src="/img/flechaabajo.png" alt="Arrow" className="arrow" />
+        </div>
+        <div className="question-box">
+          <p className="ask">Is there a shipping cost?</p>
+          <img src="/img/flechaabajo.png" alt="Arrow" className="arrow" />
+        </div>
+        <div className="question-box">
+          <p className="ask">How soon can I expect results?</p>
+          <img src="/img/flechaabajo.png" alt="Arrow" className="arrow" />
+        </div>
+      </div>
     </div>
   );
 };
